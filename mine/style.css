@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+* {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.topleft {
+  text-align: left;
+  background-color: white;
+  color: #222;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.topleft button {
+  background-color: transparent;
+  color: #222;
+  border: none;
+  font-size: 120%;
+}
+
+.topleft:hover {
+  background-color: rgba(255, 255, 255, 0.616);
+  cursor: pointer;
+}
+
+.topright {
+  display: inline-block;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.name {
+  display: block;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.line {
+  background-color: white;
+  width: 1000px;
+  height: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.block {
+  color: #222;
+  background-color: white;
+  font-size: 350%;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 27px;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
+
+.bottomleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 250px;
+
+  text-align: center;
+  align-items: center;
+}
+
+.input {
+  width: 250px;
+  height: 110px;
+  border: 5px solid white; /* Flat light border */
+  outline: none;
+  box-shadow: none;
+  text-align: center;
+  font-size: 300%;
+  padding-right: 15px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: white;
+}
+
+.check {
+  color: #222;
+  background-color: white;
+  margin-top: 30px;
+  /* width: 150px;
+  height: 50px; */
+  font-size: 120%;
+  align-self: center;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+}
+
+.check:hover {
+  background-color: rgba(255, 255, 255, 0.616);
+  cursor: pointer;
+  border: 2px solid rgb(71, 71, 248);
+}
+
+.bottomright {
+  margin-right: 150px;
+  font-size: 120%;
+  width: 450px;
+  height: 450px;
+  box-sizing: border-box;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+}
+
+.highscore {
+  display: flex;
+  flex-direction: row;
+}
